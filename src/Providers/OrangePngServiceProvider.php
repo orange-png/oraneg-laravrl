@@ -1,5 +1,5 @@
 <?php
-namespace Orange\OrangeLaravel\Providers;
+namespace OrangePng\OrangeLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
  *
  * 如何加载到laravel的服务中 ->  config/app.php
  */
-class OrangeServiceProvider extends ServiceProvider
+class OrangePngServiceProvider extends ServiceProvider
 {
     // 模仿
     public function register()

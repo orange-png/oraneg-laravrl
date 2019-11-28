@@ -1,5 +1,5 @@
 {
-    "name": "orange\/orange-laravel",
+    "name": "Orange-png\/orange-laravel",
     "description": "A simplified version of the laravel framework unit test",
     "license": "MIT",
     "authors": [
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Orange\\OrangeLaravel\\": "src"
+            "OrangePng\\OrangeLaravel\\": "src"
         }
     },
     "extra":{
         "laravel":{
             "providers":[
-                "Orange\\OrangeLaravel\\Providers\\OrangeServiceProvider"
+                "OrangePng\\OrangeLaravel\\Providers\\OrangeServiceProvider"
             ]
         }
     }

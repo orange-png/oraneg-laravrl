@@ -10,11 +10,10 @@ Laravel >= 5.1 & PHP > 7.1.3
 # 安装的方式
 
 ```yml
-composer require "orange/orange-laravel"
+composer require "OrangePng/orange-laravel"
 ```
 
-# 配置方式
-5.5手动配置laravel对于``ShineYork\SJunitLaravel\Providers\SJunitServiceProvider::class``服务放到config/app.php中
+
 
 解释路由
 ```php

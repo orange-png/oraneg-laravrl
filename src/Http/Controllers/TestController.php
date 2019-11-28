@@ -1,5 +1,5 @@
 <?php
-namespace Orange\OrangeLaravel\Http\Controllers;
+namespace OrangePng\OrangeLaravel\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 /**
