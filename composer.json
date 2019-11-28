@@ -1,11 +1,11 @@
 {
-    "name": "orange\/sjunit-laravel",
+    "name": "orange\/orange-laravel",
     "description": "A simplified version of the laravel framework unit test",
     "license": "MIT",
     "authors": [
         {
             "name": "orange",
-            "email": "orange@sixstaredu.com"
+            "email": "orange@orange.com"
         }
     ],
     "require": {
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Orange\\SJunitLaravel\\": "src"
+            "Orange\\OrangeLaravel\\": "src"
         }
     },
     "extra":{
         "laravel":{
             "providers":[
-                "Orange\\SJunitLaravel\\Providers\\SJunitServiceProvider"
+                "Orange\\OrangeLaravel\\Providers\\OrangeServiceProvider"
             ]
         }
     }

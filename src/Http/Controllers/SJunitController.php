@@ -1,5 +1,5 @@
 <?php
-namespace Orange\SJunitLaravel\Http\Controllers;
+namespace Orange\OrangeLaravel\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
