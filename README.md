@@ -1,4 +1,5 @@
-# shineyork/sjunit-laravel
+# orange/orange-laravel
+
 
 这里是对于框架的介绍
 
@@ -9,7 +10,7 @@ Laravel >= 5.1 & PHP > 7.1.3
 # 安装的方式
 
 ```yml
-composer require "shineyork/sjunit-laravel"
+composer require "orange/orange-laravel"
 ```
 
 # 配置方式
