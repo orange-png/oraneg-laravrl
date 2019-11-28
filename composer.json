@@ -5,7 +5,7 @@
     "authors": [
         {
             "name": "orange",
-            "email": "orange@orange.com"
+            "email": "orange@sixstaredu.com"
         }
     ],
     "require": {
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ShineYork\\SJunitLaravel\\": "src"
+            "Orange\\SJunitLaravel\\": "src"
         }
     },
     "extra":{
         "laravel":{
             "providers":[
-                "ShineYork\\SJunitLaravel\\Providers\\SJunitServiceProvider"
+                "Orange\\SJunitLaravel\\Providers\\SJunitServiceProvider"
             ]
         }
     }

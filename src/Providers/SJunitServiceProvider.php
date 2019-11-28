@@ -1,5 +1,5 @@
 <?php
-namespace ShineYork\SJunitLaravel\Providers;
+namespace Orange\SJunitLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
