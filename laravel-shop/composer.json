@@ -1,0 +1,20 @@
+{
+    "name": "shineyork\/laravel-shop",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shineyork",
+            "email": "shineyork@sixstaredu.com"
+        }
+    ],
+    "require": {},
+    "replace":{
+        "shineyork/laravel-shop-wap-member": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShineYork\\LaravelShop\\": "src"
+        }
+    }
+}

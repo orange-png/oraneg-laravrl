@@ -1,0 +1,86 @@
+1. 单数据库 - 实现组件化功能 和 数据设计 -> windows下开发
+2. 主从配置 - 代码
+3. 分库分库表
+
+
+代码 不同的版本 V4
+
+1. 单数据库
+1.1 结合swoole
+2. 主从配置
+3. 分库分库表
+
+
+微信 ->
+
+mysql5.7 laravel:5.8 php 7.2 ,redis
+
+结合与微信公众号 : 工具
+
+https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1455784140
+
+项目组件目录如何设计
+
+商城 : pc,微信,手机端,后台
+
+模块有不同的操作,实际上业务可能是相通
+
+shineyork
+  laravel-shop
+    |-src
+      |-wap // 手机端
+         |-member
+         |-goods
+         |-order
+         |-Contracts
+      // ..
+      |-pc
+        |-member
+        |-goods
+        |-order
+      |-web
+      |-admin
+
+开发思路
+member,goods,order 肯定也是不同的组件
+
+laravel-shop 本身就是一个组件
+
+member,goods,order 集成在 laravel-shop子组件
+
+组件之间的方法交流 就会通工契约来约束, 组件可以随便换,但是这个规矩必须要知道
+
+开发思路注意的地方
+
+服务组件化的开发模式 (本身laravel的框架开发设计方式 -> 这是一期laravel进阶项目) -> 有点类似于微服务
+
+组件是定义的,那么问题 组件的使用 非常关键的一点,组件对于一些方法依赖必须自己在组件中解决,同时还有一点方便与别人扩展和调用
+
+1. 数据库
+member,goods,order 会有对应的数据库文件 -> 其他地方可使用 数据库是不是可以迁移性
+
+2. member 用户登入模块
+必然用户权限的校验auth config/auth.php ; 组件如果说让用户去自己去config/auth.php中配置
+
+潜在的问题 member 使用模型肯定就不能使用App\User模型;
+
+easywechat网页授权登入 , 在member组件会提供者个依赖 会在composer.json的这个配置 require 需要在组件中去使用这个依赖组件完善功能
+
+3. 这个组件我们怎么让laravel加载组件中的中间件,已经这个迁移文件
+
+当前我们这种开发模式的难点
+
+
+
+用户不是项目重点:
+
+id,name,password,weixin_openid,image 
+
+
+
+
+
+
+
+
+..
