@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
  *
  * 如何加载到laravel的服务中 ->  config/app.php
  */
-class SJunitServiceProvider extends ServiceProvider
+class OrangeServiceProvider extends ServiceProvider
 {
     // 模仿
     public function register()
@@ -45,7 +45,7 @@ class SJunitServiceProvider extends ServiceProvider
             // 定义访问路由的域名
             // 'domain' => config('telescope.domain', null),
             // 是定义路由的命名空间
-            'namespace' => 'ShineYork\SJunitLaravel\Http\Controllers',
+            'namespace' => '"Orange\OrangeLaravel\Http\Controllers',
             // 这是前缀
             'prefix' => 'sjunit',
             // 这是中间件
