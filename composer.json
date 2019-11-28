@@ -1,11 +1,11 @@
 {
-    "name": "shineyork\/sjunit-laravel",
+    "name": "orange\/sjunit-laravel",
     "description": "A simplified version of the laravel framework unit test",
     "license": "MIT",
     "authors": [
         {
-            "name": "shineyork",
-            "email": "shineyork@sixstaredu.com"
+            "name": "orange",
+            "email": "orange@orange.com"
         }
     ],
     "require": {
