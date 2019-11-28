@@ -45,7 +45,7 @@ class OrangePngServiceProvider extends ServiceProvider
             // 定义访问路由的域名
             // 'domain' => config('telescope.domain', null),
             // 是定义路由的命名空间
-            'namespace' => '"OrangePng\OrangeLaravel\Http\Controllers',
+            'namespace' => 'OrangePng\OrangeLaravel\Http\Controllers',
             // 这是前缀
             'prefix' => 'sjunit',
             // 这是中间件
