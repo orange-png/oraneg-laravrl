@@ -19,7 +19,7 @@
     "extra":{
         "laravel":{
             "providers":[
-                "OrangePng\\OrangeLaravel\\Providers\\OrangeServiceProvider"
+                "OrangePng\\OrangeLaravel\\Providers\\OrangePngServiceProvider"
             ]
         }
     }
